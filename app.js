@@ -43,8 +43,7 @@ function renderCapsules(root, items) {
   }, {});
 
   const order = ["apertura", "pantallas", "influencers", "convivencia", "ventas", "parqueadero", "cierre"];
-
-  root.innerHTML = order
+  const sections = order
     .filter(category => grouped[category]?.length)
     .map(category => `
       <section class="category-section" id="${category}">
@@ -60,6 +59,19 @@ function renderCapsules(root, items) {
         </div>
       </section>
     `).join("");
+
+  const releaseNote = items.length
+    ? `
+      <section class="capsule-release-note" aria-label="Actualizaciones de cápsulas">
+        <p>
+          Seguiremos publicando nuevos bloques de cápsulas periódicamente para
+          continuar fortaleciendo la corresponsabilidad entre familia y escuela.
+        </p>
+      </section>
+    `
+    : "";
+
+  root.innerHTML = `${sections}${releaseNote}`;
 }
 
 function cardTemplate(item) {
