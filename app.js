@@ -26,6 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
     renderCapsules(root, visibleToday);
     setupDialog();
   }
+
+  const timelineRoot = document.querySelector("#timeline-root");
+  if (timelineRoot && Array.isArray(window.ACCIONES)) {
+    renderTimeline(timelineRoot, window.ACCIONES);
+  }
 });
 
 function getLocalIsoDate() {
@@ -115,6 +120,49 @@ function setupDialog() {
       if (event.target === dialog) dialog.close();
     });
   }
+}
+
+function renderTimeline(root, items) {
+  if (!items.length) {
+    root.innerHTML = `
+      <article class="timeline-item">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">Pronto</p>
+          <h2>Estamos preparando nuevas actividades</h2>
+          <p>En esta sección compartiremos las acciones del consejo con fecha, título y descripción.</p>
+        </div>
+      </article>
+    `;
+    return;
+  }
+
+  const sortedItems = [...items].sort((a, b) => a.date.localeCompare(b.date));
+  root.innerHTML = sortedItems.map(timelineTemplate).join("");
+}
+
+function timelineTemplate(item) {
+  return `
+    <article class="timeline-item">
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card">
+        <p class="timeline-date">${escapeHtml(formatDateEs(item.date))}</p>
+        <h2>${escapeHtml(item.title)}</h2>
+        <p>${escapeHtml(item.description)}</p>
+      </div>
+    </article>
+  `;
+}
+
+function formatDateEs(date) {
+  const parsed = new Date(`${date}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return date;
+
+  return parsed.toLocaleDateString("es-CO", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric"
+  });
 }
 
 function escapeHtml(value) {

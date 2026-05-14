@@ -216,3 +216,11 @@ window.CAPSULAS = [
     "image": "assets/images/29-responsible_parking_for_everyone_s_safety.png"
   }
 ];
+
+window.ACCIONES = [
+  {
+    "date": "2026-05-01",
+    "title": "Creación del sitio web",
+    "description": "Presentamos la campaña de corresponsabilidad a través de un sitio web con cápsulas educativas para familias."
+  },
+];
