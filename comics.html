@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómics | Cápsulas de Corresponsabilidad</title>
+  <meta name="description" content="Cómics de Cápsulas de Corresponsabilidad del Consejo de Familias 2026 · Robledo.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="analytics.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="page-header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        <span class="brand-mark">♡</span>
+        <span>
+          <strong>Capsulas de Corresponsabilidad</strong>
+          <small>Consejo de Familias 2026 · Robledo</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menú</button>
+      <div id="menu" class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="consejo.html">Consejo</a>
+        <a href="acciones.html">¿Qué hacemos?</a>
+        <a href="capsulas.html">Cápsulas</a>
+        <a href="comics.html" aria-current="page">Cómics</a>
+        <a href="recursos.html">Recursos</a>
+      </div>
+    </nav>
+
+    <div class="page-title" id="contenido">
+      <p class="eyebrow">Narrativas breves</p>
+      <h1>Cómics de corresponsabilidad</h1>
+      <p>Historias espejo para conversar en familia sobre pantallas, límites, hábitos y ejemplo adulto.</p>
+    </div>
+  </header>
+
+  <main class="section">
+    <section class="comic-hero" aria-labelledby="comic-intro-title">
+      <p class="eyebrow">Conversaciones Espejo</p>
+      <h2 id="comic-intro-title">Cuando una escena cotidiana nos devuelve una pregunta incómoda</h2>
+      <p>
+        Estos cómics complementan las cápsulas visuales de la campaña. No buscan señalar a una familia,
+        sino abrir conversación sobre contradicciones comunes y acuerdos posibles.
+      </p>
+    </section>
+
+    <section aria-label="Listado de cómics">
+      <div class="comic-toolbar">
+        <input id="comicSearch" class="comic-filter" type="search" placeholder="Buscar por tema: emergencia, Robux, aburrimiento, límites..." aria-label="Buscar cómics">
+        <span id="comicCount" class="comic-count">2 cómics</span>
+      </div>
+
+      <div id="comicGrid" class="comic-grid">
+        <article class="comic-card" data-search="comic 1 solo para emergencias celular robux reuniones familias pantallas redes convivencia límites acuerdos acceso casa aula mentora lider del centro">
+          <button class="comic-cover-button" type="button" data-full="assets/images/comic-1-solo-para-emergencias.png" data-caption="Cómic 1 · Solo para emergencias">
+            <img src="assets/images/comic-1-solo-para-emergencias.png" alt="Cómic 1 · Solo para emergencias" loading="lazy">
+          </button>
+          <div class="comic-body">
+            <span class="comic-kicker">Pantallas · acuerdos</span>
+            <h3>Solo para emergencias</h3>
+            <p>
+              Una reunión de familias sobre celulares, redes y convivencia muestra la contradicción entre pedir límites
+              y sostenerlos también en casa.
+            </p>
+            <div class="comic-actions">
+              <a href="assets/images/comic-1-solo-para-emergencias.png" download>Descargar</a>
+              <button type="button" data-full="assets/images/comic-1-solo-para-emergencias.png" data-caption="Cómic 1 · Solo para emergencias">Ver completo</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="comic-card" data-search="comic 2 no está en una edad difícil pantalla fácil aburrimiento esperar comer mirar por la ventana algoritmo hábitos adultos límites presencia adulta real">
+          <button class="comic-cover-button" type="button" data-full="assets/images/comic-2-pantalla-facil.png" data-caption="Cómic 2 · No está en una edad difícil. Está en una pantalla fácil">
+            <img src="assets/images/comic-2-pantalla-facil.png" alt="Cómic 2 · No está en una edad difícil. Está en una pantalla fácil" loading="lazy">
+          </button>
+          <div class="comic-body">
+            <span class="comic-kicker">Hábitos · presencia adulta</span>
+            <h3>No está en una edad difícil. Está en una pantalla fácil</h3>
+            <p>
+              Una escena de espera después de una reunión abre la pregunta sobre aburrimiento, regulación,
+              presencia adulta y uso de la pantalla como salida fácil.
+            </p>
+            <div class="comic-actions">
+              <a href="assets/images/comic-2-pantalla-facil.png" download>Descargar</a>
+              <button type="button" data-full="assets/images/comic-2-pantalla-facil.png" data-caption="Cómic 2 · No está en una edad difícil. Está en una pantalla fácil">Ver completo</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!--<div class="comic-note">
+        <strong>Referencias editoriales:</strong> estos cómics toman como base publicaciones de referencia.
+        Esta lista se ampliará a futuro conforme se publiquen nuevas fuentes.
+        <ul>
+          <li>
+            <a href="https://x.com/aqui_mi_casa/status/2054149674114617468?s=46" target="_blank" rel="noopener">
+              Publicación en X de @aqui_mi_casa
+            </a>
+          </li>
+        </ul>
+      </div>--> <!-- IGNORE -->
+    </section>
+  </main>
+
+  <dialog id="comicDialog" class="comic-dialog">
+    <button class="comic-dialog-close" type="button" aria-label="Cerrar">×</button>
+    <figure>
+      <img id="comicDialogImage" src="" alt="">
+      <figcaption id="comicDialogCaption"></figcaption>
+    </figure>
+  </dialog>
+
+  <footer class="footer">
+    <strong>Consejo de Familias 2026 · Robledo</strong>
+    <span>Cápsulas de Corresponsabilidad</span>
+  </footer>
+
+  <script>
+    (() => {
+      const input = document.querySelector("#comicSearch");
+      const cards = Array.from(document.querySelectorAll(".comic-card"));
+      const count = document.querySelector("#comicCount");
+      const dialog = document.querySelector("#comicDialog");
+      const dialogImage = document.querySelector("#comicDialogImage");
+      const dialogCaption = document.querySelector("#comicDialogCaption");
+      const close = document.querySelector(".comic-dialog-close");
+
+      function updateCount(visible) {
+        if (!count) return;
+        count.textContent = `${visible} cómic${visible === 1 ? "" : "s"}`;
+      }
+
+      if (input) {
+        input.addEventListener("input", () => {
+          const term = input.value.trim().toLowerCase();
+          let visible = 0;
+
+          cards.forEach(card => {
+            const haystack = (card.textContent + " " + card.dataset.search).toLowerCase();
+            const show = !term || haystack.includes(term);
+            card.hidden = !show;
+            if (show) visible++;
+          });
+
+          updateCount(visible);
+        });
+      }
+
+      document.addEventListener("click", (event) => {
+        const trigger = event.target.closest("[data-full]");
+        if (!trigger || !dialog || !dialogImage || !dialogCaption) return;
+
+        dialogImage.src = trigger.dataset.full;
+        dialogImage.alt = trigger.dataset.caption || "";
+        dialogCaption.textContent = trigger.dataset.caption || "";
+
+        if (typeof dialog.showModal === "function") {
+          dialog.showModal();
+        } else {
+          window.open(trigger.dataset.full, "_blank", "noopener");
+        }
+      });
+
+      if (close && dialog) {
+        close.addEventListener("click", () => dialog.close());
+        dialog.addEventListener("click", (event) => {
+          if (event.target === dialog) dialog.close();
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
