@@ -21,9 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const root = document.querySelector("#capsule-root");
   if (root && window.CAPSULAS) {
+    const searchInput = document.querySelector("#capsule-search-input");
+    const searchStatus = document.querySelector("#capsule-search-status");
     const today = getLocalIsoDate();
     const visibleToday = window.CAPSULAS.filter(item => item.publishDate && item.publishDate <= today);
     renderCapsules(root, visibleToday);
+    setupCapsuleSearch({
+      input: searchInput,
+      status: searchStatus,
+      root,
+      items: visibleToday
+    });
     setupDialog();
   }
 
@@ -42,6 +50,16 @@ function getLocalIsoDate() {
 }
 
 function renderCapsules(root, items) {
+  if (!items.length) {
+    root.innerHTML = `
+      <section class="capsule-empty" aria-label="Sin resultados">
+        <h2>No encontramos cápsulas con esa búsqueda</h2>
+        <p>Prueba con palabras más generales como pantalla, convivencia, bullying, familia o controles parentales.</p>
+      </section>
+    `;
+    return;
+  }
+
   const grouped = items.reduce((acc, item) => {
     (acc[item.category] ||= []).push(item);
     return acc;
@@ -77,6 +95,49 @@ function renderCapsules(root, items) {
     : "";
 
   root.innerHTML = `${sections}${releaseNote}`;
+}
+
+function setupCapsuleSearch({ input, status, root, items }) {
+  if (!input || !status || !root || !Array.isArray(items)) return;
+
+  const total = items.length;
+  status.textContent = `Mostrando ${total} de ${total} cápsulas.`;
+
+  input.addEventListener("input", () => {
+    const query = normalizeText(input.value.trim());
+    if (!query) {
+      renderCapsules(root, items);
+      status.textContent = `Mostrando ${total} de ${total} cápsulas.`;
+      return;
+    }
+
+    const filtered = items.filter(item => getCapsuleSearchSource(item).includes(query));
+    renderCapsules(root, filtered);
+    status.textContent = `Mostrando ${filtered.length} de ${total} cápsulas para "${input.value.trim()}".`;
+  });
+}
+
+function getCapsuleSearchSource(item) {
+  if (item.searchText) return normalizeText(item.searchText);
+
+  const keywords = Array.isArray(item.keywords) ? item.keywords.join(" ") : "";
+  const source = [
+    item.category,
+    item.title,
+    item.question,
+    item.ideaBase,
+    item.textBase,
+    keywords
+  ].filter(Boolean).join(" ");
+
+  return normalizeText(source);
+}
+
+function normalizeText(value) {
+  return String(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 }
 
 function cardTemplate(item) {

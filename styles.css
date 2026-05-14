@@ -313,6 +313,69 @@ h1, h2, h3 { line-height: 1.05; margin: 0; }
 }
 .subnav a:hover { background: var(--magenta); color: white; }
 
+.capsule-search {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  border: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 199, 44, .3), transparent 7rem),
+    #fff;
+  box-shadow: 0 12px 35px rgba(92, 32, 87, .07);
+}
+
+.capsule-search label {
+  display: block;
+  color: var(--magenta-dark);
+  font-weight: 900;
+  margin-bottom: .55rem;
+}
+
+.capsule-search-row {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.capsule-search input {
+  width: 100%;
+  border: 1px solid rgba(210, 10, 91, .3);
+  border-radius: 999px;
+  background: #fff;
+  padding: .8rem 1rem;
+  font: inherit;
+  color: var(--ink);
+}
+
+.capsule-search input:focus {
+  outline: 3px solid rgba(95, 44, 160, .25);
+  border-color: var(--magenta);
+}
+
+.capsule-search-status {
+  margin: .6rem 0 0;
+  color: var(--muted);
+  font-weight: 700;
+  min-height: 1.2rem;
+}
+
+.capsule-empty {
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+  background: #fff;
+  padding: 1.2rem;
+  box-shadow: 0 10px 30px rgba(92, 32, 87, .08);
+}
+
+.capsule-empty h2 {
+  color: var(--magenta-dark);
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+}
+
+.capsule-empty p {
+  margin: .5rem 0 0;
+  color: var(--muted);
+}
+
 .category-section {
   scroll-margin-top: 6rem;
   margin-bottom: 4rem;
