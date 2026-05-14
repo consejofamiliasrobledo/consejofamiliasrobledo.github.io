@@ -688,6 +688,31 @@ window.CAPSULAS = [
 
 window.ACCIONES = [
   {
+    "date": "2026-02-24",
+    "title": "Reunión Consejo de Padres de Familia",
+    "description": "Reunión periódica o regular del consejo de familias. La líder zonal estuvo presente."
+  },
+  {
+    "date": "2026-03-19",
+    "title": "Reunión Consejo 2025 previa al encuentro de empalme con el nuevo Consejo 2026",
+    "description": "Reunión periódica o regular del consejo de familias."
+  },
+  {
+    "date": "2026-03-26",
+    "title": "Primera reunión con el nuevo Consejo 2026",
+    "description": "Reunión periódica o regular del consejo de familias."
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Reunión Foro de la Confianza 2026",
+    "description": "Reunión periódica o regular del consejo de familias."
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Reunión Consejo de Padres de Familia",
+    "description": "Reunión periódica o regular del consejo de familias."
+  },
+  {
     "date": "2026-05-01",
     "title": "Publicación del sitio web del consejo 2026",
     "description": "Presentamos la campaña de corresponsabilidad digital a las familias, explicando su propósito, estructura y cómo pueden participar activamente en la protección digital de sus hijos e hijas."
@@ -697,5 +722,10 @@ window.ACCIONES = [
     "title": "Envío de comunicado al consejo directivo",
     "description": "Hoy se presentó un comunicado que recoge preocupaciones sobre el uso libre de celulares durante la jornada: desconexión social en los descansos, circulación de contenido inadecuado, riesgos para la privacidad y mayores dificultades de convivencia. También propone una ruta de cuidado con medidas concretas, incluyendo restricción del uso durante el horario escolar, fortalecimiento de canales de comunicación para emergencias y acompañamiento pedagógico a familias, con una implementación gradual y participativa.",
     "highlightText": "Si quieres conocer el comunicado en detalle, solicítalo al representante de tu grupo en el consejo de familias."
+  },
+  {
+    "date": "2026-05-28",
+    "title": "Próxima reunión programada del Consejo de Familias",
+    "description": "Reunión periódica o regular del consejo de familias."
   }
 ];
