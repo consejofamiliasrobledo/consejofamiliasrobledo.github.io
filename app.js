@@ -39,6 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (timelineRoot && Array.isArray(window.ACCIONES)) {
     renderTimeline(timelineRoot, window.ACCIONES);
   }
+
+  setupMonthlyComicPopup();
 });
 
 function getLocalIsoDate() {
@@ -194,6 +196,48 @@ function setupDialog() {
     dialog.addEventListener("click", event => {
       if (event.target === dialog) dialog.close();
     });
+  }
+}
+
+function setupMonthlyComicPopup() {
+  const popupDialog = document.querySelector("#homeComicDialog");
+  const popupImage = document.querySelector("#homeComicImage");
+  const popupCaption = document.querySelector("#homeComicCaption");
+  const popupClose = document.querySelector("#homeComicDialogClose");
+
+  if (!popupDialog || !popupImage || !popupCaption) return;
+
+  const comicByMonth = {
+    4: {
+      image: "assets/images/comic-1-solo-para-emergencias.png",
+      caption: "Cómic del mes · Solo para emergencias"
+    },
+    5: {
+      image: "assets/images/comic-2-pantalla-facil.png",
+      caption: "Cómic del mes · No está en una edad difícil. Está en una pantalla fácil"
+    }
+  };
+
+  const now = new Date();
+  const activeComic = comicByMonth[now.getMonth()];
+  if (!activeComic) return;
+
+  popupImage.src = activeComic.image;
+  popupImage.alt = activeComic.caption;
+  popupCaption.textContent = activeComic.caption;
+
+  if (popupClose) {
+    popupClose.addEventListener("click", () => popupDialog.close());
+  }
+
+  popupDialog.addEventListener("click", event => {
+    if (event.target === popupDialog) popupDialog.close();
+  });
+
+  if (typeof popupDialog.showModal === "function") {
+    popupDialog.showModal();
+  } else {
+    window.open(activeComic.image, "_blank", "noopener");
   }
 }
 
