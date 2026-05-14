@@ -695,6 +695,7 @@ window.ACCIONES = [
   {
     "date": "2026-05-13",
     "title": "Envío de comunicado al consejo directivo",
-    "description": "Hoy se presentó un comunicado que recoge preocupaciones sobre el uso libre de celulares durante la jornada: desconexión social en los descansos, circulación de contenido inadecuado, riesgos para la privacidad y mayores dificultades de convivencia. También propone una ruta de cuidado con medidas concretas, incluyendo restricción del uso durante el horario escolar, fortalecimiento de canales de comunicación para emergencias y acompañamiento pedagógico a familias, con una implementación gradual y participativa."
+    "description": "Hoy se presentó un comunicado que recoge preocupaciones sobre el uso libre de celulares durante la jornada: desconexión social en los descansos, circulación de contenido inadecuado, riesgos para la privacidad y mayores dificultades de convivencia. También propone una ruta de cuidado con medidas concretas, incluyendo restricción del uso durante el horario escolar, fortalecimiento de canales de comunicación para emergencias y acompañamiento pedagógico a familias, con una implementación gradual y participativa.",
+    "highlightText": "Si quieres conocer el comunicado en detalle, solicítalo al representante de tu grupo en el consejo de familias."
   }
 ];

@@ -217,6 +217,10 @@ function renderTimeline(root, items) {
 }
 
 function timelineTemplate(item) {
+  const highlight = item.highlightText
+    ? `<p class="timeline-highlight">${escapeHtml(item.highlightText)}</p>`
+    : "";
+
   return `
     <article class="timeline-item">
       <div class="timeline-dot" aria-hidden="true"></div>
@@ -224,6 +228,7 @@ function timelineTemplate(item) {
         <p class="timeline-date">${escapeHtml(formatDateEs(item.date))}</p>
         <h2>${escapeHtml(item.title)}</h2>
         <p>${escapeHtml(item.description)}</p>
+        ${highlight}
       </div>
     </article>
   `;
