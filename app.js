@@ -37,7 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const timelineRoot = document.querySelector("#timeline-root");
   if (timelineRoot && Array.isArray(window.ACCIONES)) {
+    const timelineSearchInput = document.querySelector("#timeline-search-input");
+    const timelineSearchStatus = document.querySelector("#timeline-search-status");
     renderTimeline(timelineRoot, window.ACCIONES);
+    setupTimelineSearch({
+      input: timelineSearchInput,
+      status: timelineSearchStatus,
+      root: timelineRoot,
+      items: window.ACCIONES
+    });
   }
 
   setupMonthlyComicPopup();
@@ -241,8 +249,24 @@ function setupMonthlyComicPopup() {
   }
 }
 
-function renderTimeline(root, items) {
+function renderTimeline(root, items, options = {}) {
+  const { hasFilters = false } = options;
+
   if (!items.length) {
+    if (hasFilters) {
+      root.innerHTML = `
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <p class="timeline-date">Sin coincidencias</p>
+            <h2>No encontramos acciones con esa búsqueda</h2>
+            <p>Prueba con términos más generales como comunicado, corresponsabilidad, publicación o consejo.</p>
+          </div>
+        </article>
+      `;
+      return;
+    }
+
     root.innerHTML = `
       <article class="timeline-item">
         <div class="timeline-dot" aria-hidden="true"></div>
@@ -258,6 +282,39 @@ function renderTimeline(root, items) {
 
   const sortedItems = [...items].sort((a, b) => a.date.localeCompare(b.date));
   root.innerHTML = sortedItems.map(timelineTemplate).join("");
+}
+
+function setupTimelineSearch({ input, status, root, items }) {
+  if (!input || !status || !root || !Array.isArray(items)) return;
+
+  const total = items.length;
+  status.textContent = `Mostrando ${total} de ${total} acciones.`;
+
+  input.addEventListener("input", () => {
+    const queryValue = input.value.trim();
+    const query = normalizeText(queryValue);
+
+    if (!query) {
+      renderTimeline(root, items);
+      status.textContent = `Mostrando ${total} de ${total} acciones.`;
+      return;
+    }
+
+    const filtered = items.filter(item => getTimelineSearchSource(item).includes(query));
+    renderTimeline(root, filtered, { hasFilters: true });
+    status.textContent = `Mostrando ${filtered.length} de ${total} acciones para "${queryValue}".`;
+  });
+}
+
+function getTimelineSearchSource(item) {
+  const source = [
+    item.date,
+    item.title,
+    item.description,
+    item.highlightText
+  ].filter(Boolean).join(" ");
+
+  return normalizeText(source);
 }
 
 function timelineTemplate(item) {

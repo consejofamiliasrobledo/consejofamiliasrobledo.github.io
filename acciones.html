@@ -43,6 +43,13 @@
   </header>
 
   <main class="section timeline-shell" aria-label="Línea de tiempo de actividades">
+    <section class="capsule-search" aria-label="Buscar acciones">
+      <label for="timeline-search-input">Buscar por palabra clave</label>
+      <div class="capsule-search-row">
+        <input id="timeline-search-input" type="search" placeholder="Ejemplo: comunicado, publicación, corresponsabilidad" autocomplete="off">
+      </div>
+      <p id="timeline-search-status" class="capsule-search-status" aria-live="polite"></p>
+    </section>
     <section id="timeline-root" class="timeline" aria-label="Actividades del Consejo de Familias"></section>
   </main>
 
