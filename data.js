@@ -115,9 +115,10 @@ window.CAPSULAS = [
       "apps",
       "privacidad",
       "ciberacoso",
+      "bullying",
       "estafas"
     ],
-    "searchText": "pantallas celular con internet ¿está listo mi hijo o hija para tener un celular con internet? checklist para evaluar si un niño, niña o adolescente está listo para tener un celular con internet y si la familia está lista para acompañar. ¿está listo mi hijo o hija para tener un celular con internet? antes de entregar un celular, revisa edad y madurez, controles parentales, cuenta infantil, filtros, límites de tiempo, acuerdos de uso, apps permitidas, descargas y qué hacer si algo incomoda. dar un celular no es solo entregar un aparato: es asumir acompañamiento, límites y conversación. celular internet madurez edad controles parentales cuenta infantil filtros límites de tiempo acuerdos apps privacidad ciberacoso estafas"
+    "searchText": "pantallas celular con internet ¿está listo mi hijo o hija para tener un celular con internet? checklist para evaluar si un niño, niña o adolescente está listo para tener un celular con internet y si la familia está lista para acompañar. ¿está listo mi hijo o hija para tener un celular con internet? antes de entregar un celular, revisa edad y madurez, controles parentales, cuenta infantil, filtros, límites de tiempo, acuerdos de uso, apps permitidas, descargas y qué hacer si algo incomoda. dar un celular no es solo entregar un aparato: es asumir acompañamiento, límites y conversación. celular internet madurez edad controles parentales cuenta infantil filtros límites de tiempo acuerdos apps privacidad ciberacoso bullying estafas"
   },
   {
     "id": 3,
@@ -424,6 +425,8 @@ window.CAPSULAS = [
       "machismo",
       "manosfera",
       "incel",
+      "bullying",
+      "ciberacoso",
       "odio",
       "desprecio",
       "humillación",
@@ -432,7 +435,7 @@ window.CAPSULAS = [
       "mujeres",
       "niñas"
     ],
-    "searchText": "influencers discriminación y discursos de desprecio ¿sabemos qué ideas están intentando imitar? nombra con cuidado discursos de discriminación, misoginia, manosfera, incel, humillación y control que pueden circular disfrazados de humor o consejo. ¿sabemos qué ideas están intentando imitar? en tiktok, instagram, youtube, podcasts y otras redes circulan discursos que normalizan la discriminación, el desprecio, la humillación y el control. también pueden aparecer contenidos asociados a la manosfera, discursos tipo incel y comunidades que promueven resentimiento y desprecio. disfrazar el odio de consejo no lo vuelve inocente. discriminación misoginia machismo manosfera incel odio desprecio humillación control dominación mujeres niñas"
+    "searchText": "influencers discriminación y discursos de desprecio ¿sabemos qué ideas están intentando imitar? nombra con cuidado discursos de discriminación, misoginia, manosfera, incel, humillación y control que pueden circular disfrazados de humor o consejo. ¿sabemos qué ideas están intentando imitar? en tiktok, instagram, youtube, podcasts y otras redes circulan discursos que normalizan la discriminación, el desprecio, la humillación y el control. también pueden aparecer contenidos asociados a la manosfera, discursos tipo incel y comunidades que promueven resentimiento y desprecio. disfrazar el odio de consejo no lo vuelve inocente. discriminación misoginia machismo manosfera incel bullying ciberacoso odio desprecio humillación control dominación mujeres niñas"
   },
   {
     "id": 5,
@@ -489,6 +492,7 @@ window.CAPSULAS = [
     "textBase": "¿Sabemos qué hacer frente al bullying? El bullying no es un juego ni una broma. Puede aparecer como burlas repetidas, humillación, exclusión, amenazas, golpes o empujones, acoso en chats o redes. Frente al bullying: no seas agresor, no te quedes solo mirando, no guardes silencio si te pasa, busca ayuda de un adulto.",
     "keywords": [
       "bullying",
+      "ciberacoso",
       "acoso escolar",
       "burlas",
       "humillación",
@@ -502,7 +506,7 @@ window.CAPSULAS = [
       "observador",
       "adulto"
     ],
-    "searchText": "convivencia bullying ¿sabemos qué hacer frente al bullying? orienta frente al bullying: no ser agresor, no quedarse como observador pasivo, no guardar silencio y pedir ayuda adulta. ¿sabemos qué hacer frente al bullying? el bullying no es un juego ni una broma. puede aparecer como burlas repetidas, humillación, exclusión, amenazas, golpes o empujones, acoso en chats o redes. frente al bullying: no seas agresor, no te quedes solo mirando, no guardes silencio si te pasa, busca ayuda de un adulto. bullying acoso escolar burlas humillación exclusión amenazas golpes empujones chats redes agresor observador adulto"
+    "searchText": "convivencia bullying ¿sabemos qué hacer frente al bullying? orienta frente al bullying: no ser agresor, no quedarse como observador pasivo, no guardar silencio y pedir ayuda adulta. ¿sabemos qué hacer frente al bullying? el bullying no es un juego ni una broma. puede aparecer como burlas repetidas, humillación, exclusión, amenazas, golpes o empujones, acoso en chats o redes. frente al bullying: no seas agresor, no te quedes solo mirando, no guardes silencio si te pasa, busca ayuda de un adulto. bullying ciberacoso acoso escolar burlas humillación exclusión amenazas golpes empujones chats redes agresor observador adulto"
   },
   {
     "id": 2,
@@ -521,12 +525,14 @@ window.CAPSULAS = [
       "Snapchat",
       "mensajes privados",
       "mensajes que desaparecen",
+      "bullying",
+      "ciberacoso",
       "burlas",
       "exclusión",
       "presión de grupo",
       "seguridad"
     ],
-    "searchText": "convivencia chats y grupos ¿sabemos qué está pasando en los chats y grupos donde participan? explica que chats, grupos y mensajes privados también pueden afectar seguridad, convivencia y bienestar emocional. ¿sabemos qué está pasando en los chats y grupos donde participan? whatsapp, telegram, signal y snapchat no son solo apps para hablar. también pueden ser espacios donde circulan burlas, exclusión, presión de grupo, contenido inapropiado, mensajes incómodos o personas que no deberían tener acceso. un chat también puede afectar la convivencia escolar, la seguridad y el bienestar emocional. chats grupos whatsapp telegram signal snapchat mensajes privados mensajes que desaparecen burlas exclusión presión de grupo seguridad"
+    "searchText": "convivencia chats y grupos ¿sabemos qué está pasando en los chats y grupos donde participan? explica que chats, grupos y mensajes privados también pueden afectar seguridad, convivencia y bienestar emocional. ¿sabemos qué está pasando en los chats y grupos donde participan? whatsapp, telegram, signal y snapchat no son solo apps para hablar. también pueden ser espacios donde circulan burlas, exclusión, presión de grupo, contenido inapropiado, mensajes incómodos o personas que no deberían tener acceso. un chat también puede afectar la convivencia escolar, la seguridad y el bienestar emocional. chats grupos whatsapp telegram signal snapchat mensajes privados mensajes que desaparecen bullying ciberacoso burlas exclusión presión de grupo seguridad"
   },
   {
     "id": 3,
@@ -547,10 +553,12 @@ window.CAPSULAS = [
       "fotos",
       "uniforme",
       "imágenes íntimas",
+      "bullying",
+      "ciberacoso",
       "capturas",
       "permiso"
     ],
-    "searchText": "convivencia identidad digital ¿sabemos cuidar la identidad digital? enseña a proteger la identidad digital propia y respetar la de otros: datos, ubicación, rutinas, fotos, capturas y permiso. ¿sabemos cuidar la identidad digital? lo que compartimos en internet puede cuidar o exponer. enseñemos a cuidar datos personales, dirección y rutinas, nombre del colegio, ubicación en tiempo real, fotos en uniforme e imágenes íntimas o privadas. y a respetar la identidad de otros: no publicar fotos sin permiso, no reenviar capturas, no compartir secretos o datos ajenos. identidad digital privacidad datos personales dirección rutinas colegio ubicación fotos uniforme imágenes íntimas capturas permiso"
+    "searchText": "convivencia identidad digital ¿sabemos cuidar la identidad digital? enseña a proteger la identidad digital propia y respetar la de otros: datos, ubicación, rutinas, fotos, capturas y permiso. ¿sabemos cuidar la identidad digital? lo que compartimos en internet puede cuidar o exponer. enseñemos a cuidar datos personales, dirección y rutinas, nombre del colegio, ubicación en tiempo real, fotos en uniforme e imágenes íntimas o privadas. y a respetar la identidad de otros: no publicar fotos sin permiso, no reenviar capturas, no compartir secretos o datos ajenos. identidad digital privacidad datos personales dirección rutinas colegio ubicación fotos uniforme imágenes íntimas bullying ciberacoso capturas permiso"
   },
   {
     "id": 1,
@@ -680,33 +688,13 @@ window.CAPSULAS = [
 
 window.ACCIONES = [
   {
-    "date": "2026-02-12",
-    "title": "Encuentro de bienvenida a familias",
-    "description": "Presentamos la campaña de corresponsabilidad, escuchamos expectativas y definimos acuerdos base para el trabajo conjunto durante el año."
+    "date": "2026-05-01",
+    "title": "Publicación del sitio web del consejo 2026",
+    "description": "Presentamos la campaña de corresponsabilidad digital a las familias, explicando su propósito, estructura y cómo pueden participar activamente en la protección digital de sus hijos e hijas."
   },
   {
-    "date": "2026-03-03",
-    "title": "Taller de uso responsable de pantallas",
-    "description": "Compartimos pautas prácticas por edades para rutinas digitales saludables en casa, incluyendo tiempos de desconexión y acompañamiento activo."
-  },
-  {
-    "date": "2026-03-24",
-    "title": "Espacio de diálogo sobre convivencia digital",
-    "description": "Conversamos sobre prevención del ciberacoso, respeto en redes y rutas de apoyo para actuar de forma temprana ante situaciones de riesgo."
-  },
-  {
-    "date": "2026-04-17",
-    "title": "Jornada de formación para voceros de curso",
-    "description": "Fortalecimos habilidades de liderazgo colaborativo para mejorar la comunicación entre familias, docentes y representantes del consejo."
-  },
-  {
-    "date": "2026-05-08",
-    "title": "Campaña de hábitos saludables",
-    "description": "Impulsamos acciones sobre alimentación, descanso y autocuidado en alianza con docentes, promoviendo mensajes comunes entre casa y escuela."
-  },
-  {
-    "date": "2026-05-29",
-    "title": "Socialización de avances por grados",
-    "description": "Presentamos resultados del primer semestre, identificamos aprendizajes y ajustamos prioridades para sostener el impacto de la campaña."
+    "date": "2026-05-13",
+    "title": "Envío de comunicado al consejo directivo",
+    "description": "Hoy se presentó un comunicado que recoge preocupaciones sobre el uso libre de celulares durante la jornada: desconexión social en los descansos, circulación de contenido inadecuado, riesgos para la privacidad y mayores dificultades de convivencia. También propone una ruta de cuidado con medidas concretas, incluyendo restricción del uso durante el horario escolar, fortalecimiento de canales de comunicación para emergencias y acompañamiento pedagógico a familias, con una implementación gradual y participativa."
   }
 ];
