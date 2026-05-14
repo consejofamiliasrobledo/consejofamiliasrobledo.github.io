@@ -147,11 +147,25 @@ function cardTemplate(item) {
         <img src="${item.image}" alt="${escapeHtml(item.question)}" loading="lazy">
       </button>
       <div class="capsule-meta">
-        <h3>${escapeHtml(item.title)}</h3>
+        <div class="capsule-meta-head">
+          <h3>${escapeHtml(item.title)}</h3>
+          <span class="capsule-date" aria-label="Fecha de publicación">${escapeHtml(formatCapsuleDate(item.publishDate))}</span>
+        </div>
         <p>${escapeHtml(item.question)}</p>
       </div>
     </article>
   `;
+}
+
+function formatCapsuleDate(date) {
+  const parsed = new Date(`${date}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return date;
+
+  const months = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+  const day = String(parsed.getDate()).padStart(2, "0");
+  const month = months[parsed.getMonth()] || "";
+  const year = parsed.getFullYear();
+  return `${day} ${month} ${year}`;
 }
 
 function setupDialog() {

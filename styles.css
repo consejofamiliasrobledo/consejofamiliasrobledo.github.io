@@ -425,9 +425,28 @@ h1, h2, h3 { line-height: 1.05; margin: 0; }
 .capsule-meta {
   padding: 1rem;
 }
+.capsule-meta-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+}
 .capsule-meta h3 {
   font-size: 1.05rem;
   color: var(--magenta-dark);
+}
+.capsule-date {
+  flex: 0 0 auto;
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--purple);
+  background: var(--lavender);
+  border: 1px solid rgba(95, 44, 160, .2);
+  border-radius: 999px;
+  padding: .2rem .5rem;
+  line-height: 1;
 }
 .capsule-meta p {
   color: var(--muted);
