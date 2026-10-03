@@ -197,6 +197,7 @@ window.CAPSULAS = [
     "title": "Puntos de acceso al contenido",
     "question": "¿Sabes por dónde pueden entrar los contenidos?",
     "image": "assets/images/06-digital_responsibility_for_families_explained.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Visibiliza que el acceso a contenido no ocurre solo en el celular propio: también entra por Smart TV, tablets, computadores, consolas y celulares de otros.",
     "textBase": "¿Sabes por dónde pueden entrar los contenidos que ve tu hijo o hija? El acceso a internet no ocurre solo desde el celular propio. También puede estar en Smart TV con YouTube abierto, tablet familiar, computador compartido, consola de videojuegos, celular de un amigo, familiar o cuidador.",
     "keywords": [
@@ -242,6 +243,7 @@ window.CAPSULAS = [
     "title": "Herramientas gratuitas",
     "question": "¿Sabes qué controles parentales puedes usar sin pagar?",
     "image": "assets/images/08-herramientas_para_controlar_el_acceso_digital.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Presenta herramientas gratuitas o incluidas para control parental: Google Family Link, Tiempo en pantalla, Microsoft Family Safety y controles en Smart TV/apps de video.",
     "textBase": "¿Sabes qué controles parentales puedes usar sin pagar? Android: Google Family Link. iPhone y iPad: Tiempo en pantalla. Windows, Xbox y Edge: Microsoft Family Safety. Smart TV y apps de video: PIN, perfiles infantiles y restricciones de edad. Estas herramientas ayudan a limitar tiempo, filtrar contenido, aprobar apps, bloquear compras y revisar permisos.",
     "keywords": [
@@ -266,6 +268,7 @@ window.CAPSULAS = [
     "title": "YouTube y Smart TV",
     "question": "¿YouTube está abierto en tu Smart TV?",
     "image": "assets/images/11-youtube_control_for_kids_safety.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Explica que YouTube y YouTube Kids no deben quedar abiertos en Smart TV sin supervisión, y que existe la opción de aprobar contenido por cuenta propia.",
     "textBase": "¿YouTube está abierto en tu Smart TV? Entonces no está bajo control. Si vas a permitir YouTube, no lo dejes libre. YouTube Kids permite elegir nivel de contenido, desactivar búsqueda, quitar reproducción automática, pausar historial y usar 'Aprueba el contenido por tu cuenta'. Con esa opción, tu hijo o hija solo ve lo que tú autorizas.",
     "keywords": [
@@ -310,6 +313,7 @@ window.CAPSULAS = [
     "title": "Ejemplo adulto",
     "question": "¿Cómo pedimos a los niños lo que no ven en nosotros?",
     "image": "assets/images/30-teaching_by_example_in_school_community.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Cierre de campaña sobre el ejemplo adulto: familias, cuidadores, mentores y mediadores enseñan con sus acciones.",
     "textBase": "¿Cómo pedimos a los niños lo que no ven en nosotros? La corresponsabilidad no se enseña solo con palabras. Se aprende mirando a los adultos que acompañan la vida escolar: familias, cuidadores, mentores y mediadores. El respeto por los acuerdos también se aprende del ejemplo adulto.",
     "keywords": [
@@ -352,6 +356,7 @@ window.CAPSULAS = [
     "title": "Ejemplo adulto",
     "question": "¿Y tú, a quién admiras en redes?",
     "image": "assets/images/17-digital_role_modeling_for_families.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Pantalla de énfasis sobre el ejemplo adulto en redes: lo que seguimos, compartimos y celebramos también educa.",
     "textBase": "¿Y tú, a quién admiras en redes? Tu hijo o hija no solo aprende de lo que ve en su pantalla; también aprende de lo que ve en la tuya. ¿Conoce las personas que sigues? ¿Sabe qué tipo de contenido consumes? Lo que seguimos, compartimos y celebramos también educa.",
     "keywords": [
@@ -372,6 +377,7 @@ window.CAPSULAS = [
     "title": "Modelos de admiración",
     "question": "¿A quién aprende a admirar tu hijo o hija en redes?",
     "image": "assets/images/16-influencers_y_la_corresponsabilidad_digital.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Invita a mirar qué modelos de admiración, éxito, consumo, aprobación y trato a otros están siguiendo los hijos en redes.",
     "textBase": "¿A quién aprende a admirar tu hijo o hija en redes? Los influencers no solo entretienen. También muestran formas de hablar, vestir, consumir, tratar a otros, mostrarse y buscar aprobación. A veces parece contenido inofensivo: humor, retos, frases, rutinas, consejos o tendencias. Lo que se ve repetidamente enseña qué parece valioso, deseable o normal.",
     "keywords": [
@@ -394,6 +400,7 @@ window.CAPSULAS = [
     "title": "Tendencias peligrosas",
     "question": "¿Sabemos qué tendencias están intentando imitar?",
     "image": "assets/images/18-promoviendo_seguridad_en_redes_sociales.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Advierte sobre tendencias virales peligrosas en TikTok e Instagram relacionadas con medicamentos, alimentación extrema, daño a otros y retos para grabar y subir.",
     "textBase": "¿Sabemos qué tendencias están intentando imitar? No todo lo viral es inofensivo. Algunas tendencias en TikTok e Instagram pueden poner en riesgo la salud, la seguridad y la convivencia. Señales de alerta: medicamentos, alimentación extrema, lastimar a otros, retos para grabar y subir. Que algo sea viral no significa que sea inocente.",
     "keywords": [
@@ -417,6 +424,7 @@ window.CAPSULAS = [
     "title": "Discriminación y discursos de desprecio",
     "question": "¿Sabemos qué ideas están intentando imitar?",
     "image": "assets/images/19-capsulas_de_corresponsabilidad_educando_en_famili.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Nombra con cuidado discursos de discriminación, misoginia, manosfera, incel, humillación y control que pueden circular disfrazados de humor o consejo.",
     "textBase": "¿Sabemos qué ideas están intentando imitar? En TikTok, Instagram, YouTube, podcasts y otras redes circulan discursos que normalizan la discriminación, el desprecio, la humillación y el control. También pueden aparecer contenidos asociados a la manosfera, discursos tipo incel y comunidades que promueven resentimiento y desprecio. Disfrazar el odio de consejo no lo vuelve inocente.",
     "keywords": [
@@ -443,6 +451,7 @@ window.CAPSULAS = [
     "title": "Autoestima y salud mental",
     "question": "¿Sabemos cómo este contenido está afectando su autoestima?",
     "image": "assets/images/20-impacto_de_las_redes_en_autoestima.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Visibiliza cómo la comparación, cuerpos ideales, vidas perfectas, likes y aprobación pueden afectar autoestima y salud mental.",
     "textBase": "¿Sabemos cómo este contenido está afectando su autoestima? No todo daño se ve como peligro inmediato. A veces aparece como comparación constante, vidas perfectas, cuerpos ideales, popularidad, aprobación y miedo a no ser suficiente. Compararse todo el tiempo no es vivir en paz. Su valor no depende de su cuerpo, imagen, likes o popularidad.",
     "keywords": [
@@ -465,6 +474,7 @@ window.CAPSULAS = [
     "title": "Consolas y videojuegos",
     "question": "¿La consola también está bajo control?",
     "image": "assets/images/13-capsulas_de_corresponsabilidad_para_padres.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Aborda consolas y videojuegos no solo desde el acceso, sino desde calidad, propósito, tiempo, chats, compras y contenido.",
     "textBase": "¿La consola también está bajo control? Las consolas no son solo videojuegos. También pueden dar acceso a juegos no apropiados para su edad, chats o juego en línea con desconocidos, compras dentro del juego, tiendas y contenido abierto y mucho tiempo de pantalla sin supervisión. También importa qué juegan, cuánto juegan y qué lugar ocupa ese juego en su vida.",
     "keywords": [
@@ -488,6 +498,7 @@ window.CAPSULAS = [
     "title": "Bullying",
     "question": "¿Sabemos qué hacer frente al bullying?",
     "image": "assets/images/22-understanding_and_addressing_bullying_together.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Orienta frente al bullying: no ser agresor, no quedarse como observador pasivo, no guardar silencio y pedir ayuda adulta.",
     "textBase": "¿Sabemos qué hacer frente al bullying? El bullying no es un juego ni una broma. Puede aparecer como burlas repetidas, humillación, exclusión, amenazas, golpes o empujones, acoso en chats o redes. Frente al bullying: no seas agresor, no te quedes solo mirando, no guardes silencio si te pasa, busca ayuda de un adulto.",
     "keywords": [
@@ -514,6 +525,7 @@ window.CAPSULAS = [
     "title": "Chats y grupos",
     "question": "¿Sabemos qué está pasando en los chats y grupos donde participan?",
     "image": "assets/images/21-understanding_the_impact_of_chats_online.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Explica que chats, grupos y mensajes privados también pueden afectar seguridad, convivencia y bienestar emocional.",
     "textBase": "¿Sabemos qué está pasando en los chats y grupos donde participan? WhatsApp, Telegram, Signal y Snapchat no son solo apps para hablar. También pueden ser espacios donde circulan burlas, exclusión, presión de grupo, contenido inapropiado, mensajes incómodos o personas que no deberían tener acceso. Un chat también puede afectar la convivencia escolar, la seguridad y el bienestar emocional.",
     "keywords": [
@@ -540,6 +552,7 @@ window.CAPSULAS = [
     "title": "Identidad digital",
     "question": "¿Sabemos cuidar la identidad digital?",
     "image": "assets/images/23-cuidando_la_identidad_digital_juntos.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Enseña a proteger la identidad digital propia y respetar la de otros: datos, ubicación, rutinas, fotos, capturas y permiso.",
     "textBase": "¿Sabemos cuidar la identidad digital? Lo que compartimos en internet puede cuidar o exponer. Enseñemos a cuidar datos personales, dirección y rutinas, nombre del colegio, ubicación en tiempo real, fotos en uniforme e imágenes íntimas o privadas. Y a respetar la identidad de otros: no publicar fotos sin permiso, no reenviar capturas, no compartir secretos o datos ajenos.",
     "keywords": [
@@ -566,6 +579,7 @@ window.CAPSULAS = [
     "title": "Una compra pequeña también educa",
     "question": "¿Qué enseñamos con una compra pequeña?",
     "image": "assets/images/24-small_choices_big_lessons_at_school.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Muestra que una compra pequeña alrededor del colegio también educa sobre acuerdos, coherencia y cultura escolar.",
     "textBase": "¿Qué enseñamos con una compra pequeña en el entorno escolar? A veces parece un gesto mínimo: un dulce antes de entrar, un mecato en la salida, una compra rápida solo por hoy. Pero esas decisiones también educan. Muestran qué valor damos a los acuerdos, al cuidado común y a la coherencia entre casa y colegio.",
     "keywords": [
@@ -586,6 +600,7 @@ window.CAPSULAS = [
     "title": "Lo que compramos llega al aula",
     "question": "¿Lo que compramos antes de entrar ayuda a aprender?",
     "image": "assets/images/25-influencia_de_las_compras_en_el_aula.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Conecta dulces, mecato y bebidas azucaradas con atención, regulación y disposición para aprender en el aula.",
     "textBase": "¿Lo que compramos antes de entrar ayuda a aprender o dificulta el día? Un dulce, un mecato o una bebida azucarada pueden influir en cómo llegan niños y niñas al aula: más acelerados, menos concentrados o con más dificultad para regularse. Lo que compramos también llega al aula.",
     "keywords": [
@@ -607,6 +622,7 @@ window.CAPSULAS = [
     "title": "Ventas autorizadas",
     "question": "¿Por qué importa si una venta está autorizada o no?",
     "image": "assets/images/26-the_importance_of_respecting_agreements.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Explica por qué las ventas no autorizadas importan: seguridad, orden, acuerdos comunes y coherencia.",
     "textBase": "¿Por qué importa si una venta está autorizada o no? No se trata solo de quién vende o qué vende. También se trata de seguridad, orden en el entorno escolar y respeto por los acuerdos comunes. Normalizar compras en espacios no autorizados enseña que las reglas se pueden ignorar si parecen pequeñas o convenientes.",
     "keywords": [
@@ -627,6 +643,7 @@ window.CAPSULAS = [
     "title": "Alimentación consciente",
     "question": "¿Cómo acompañamos desde casa una alimentación más consciente?",
     "image": "assets/images/27-a_family_s_role_in_mindful_eating.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Enfatiza que la alimentación consciente también se acompaña desde casa, sin perfeccionismo pero con coherencia.",
     "textBase": "¿Cómo acompañamos desde casa una alimentación más consciente? La alimentación consciente no se construye solo en el restaurante escolar o en días especiales. También se forma en lo que empacamos, compramos y modelamos cada día. No se trata de perfección, se trata de coherencia.",
     "keywords": [
@@ -648,6 +665,7 @@ window.CAPSULAS = [
     "title": "Dinero en mano",
     "question": "¿Para qué damos dinero si ya hay restaurante o lonchera?",
     "image": "assets/images/28-educational_guide_on_money_and_school_decisions.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Cuestiona para qué se da dinero si el día escolar ya tiene restaurante o lonchera y cómo eso facilita compras o ventas entre estudiantes.",
     "textBase": "¿Para qué damos dinero si el día escolar ya tiene restaurante o lonchera? El dinero en mano no suele ser una necesidad diaria, pero puede abrir la puerta a compras no previstas, ventas entre estudiantes o consumo en espacios no autorizados. Dar dinero también educa.",
     "keywords": [
@@ -668,6 +686,7 @@ window.CAPSULAS = [
     "title": "Comportamiento en parqueadero",
     "question": "Corresponsabilidad también es nuestro comportamiento en el parqueadero.",
     "image": "assets/images/29-responsible_parking_for_everyone_s_safety.png",
+    "publishDate": "2026-10-01",
     "ideaBase": "Recuerda que la corresponsabilidad también se ve en el parqueadero: seguridad, movilidad, calma y respeto de normas.",
     "textBase": "Corresponsabilidad también es nuestro comportamiento en el parqueadero. El espacio de parqueo puede ser reducido, pero el mal comportamiento no mejora el problema y puede convertirlo en riesgo. Situaciones de riesgo: niños sin cuidador, carros en movimiento, no usar sendas peatonales, parqueo inapropiado, no usar cinturón o casco.",
     "keywords": [
